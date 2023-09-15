@@ -7,7 +7,7 @@ fn main() {
 
     // Check the number of arguments
     if args.len() != 3 {
-        println!("Usage: {} <package/executable> <installer_args>", args[0]);
+        println!("Usage: {} <package/executable> <installer_args> ", args[0]);
         return;
     }
 
