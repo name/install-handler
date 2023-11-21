@@ -23,7 +23,7 @@ To use this installer handler, follow these steps:
     Example usage:
 
     ```bash
-    ./target/release/installer_handler C:\Path\to\installer.exe /silent /norestart
+    ./target/release/installer_handler "C:\Path\to\installer.exe" "/silent /norestart"
     ```
 
 ## Features
